@@ -29,7 +29,8 @@
 
 .footer-subscription-text {
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 15px;
+  width: 50%;
 }
 
 .footer-input {

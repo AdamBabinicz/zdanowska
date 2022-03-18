@@ -11,33 +11,36 @@ function Footer() {
         <p className="footer-subscription-heading">
           Ukraina walczy i zwycięży!
         </p>
-        <p className="footer-subscription-text">text</p>
+        <p className="footer-subscription-text">
+          wojsko agresora jest odpowiedzialne za zbrodnie wojenne, a także
+          "świadome wywołanie katastrofy humanitarnej" w ukraińskich miastach
+        </p>
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Artykuły</h2>
-            <Link to="/">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
           </div>
           <div class="footer-link-items">
             <h2>Linki</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Filmy</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
+            <Link to="/">x</Link>
           </div>
           <div class="footer-link-items">
             <h2>Media</h2>
