@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Nosifer&family=Zilla+Slab+Highlight:wght@400;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.home,
+.services,
+.products,
+.sign-up {
   display: flex;
   flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+article {
+  background: rgba(0, 0, 0, 0.4);
+  width: 70%;
+  padding: 5rem;
+}
+.services h3,
+.products h3,
+.sign-up h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.services p,
+.products p,
+.sign-up p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.7rem;
+  font-weight: lighter;
+  margin: 0.5rem 0;
+}
+em {
+  font-size: 15px;
+  background: rgb(0, 119, 255);
+  padding: 0.5rem;
+}
+.services {
+  background: url("/public/images/2.jpg") center/cover no-repeat fixed;
+  color: #fff;
+}
+.products {
+  background: url("/public/images/3.jpg") center/cover no-repeat fixed;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.sign-up {
+  background: url("/public/images/4.jpg") center/cover no-repeat fixed;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* font-family: 'Merriweather', serif;
+font-family: 'Nosifer', cursive;
+font-family: 'Zilla Slab Highlight', cursive; */
+
+@media screen and (max-width: 768px) {
+  article {
+    width: 90%;
+    padding: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
-  to {
-    transform: rotate(360deg);
+  .services h3,
+  .products h3,
+  .sign-up h3 {
+    font-size: 30px;
+  }
+  .services p,
+  .products p {
+    font-size: 15px;
+    line-height: 1.8rem;
   }
 }
