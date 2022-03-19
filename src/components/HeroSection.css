@@ -25,7 +25,6 @@ video {
   color: red;
   margin-top: 8px;
   font-size: 32px;
-  font-family: serif;
 }
 .hero-container p {
   font-family: "Nosifer", cursive;
@@ -50,17 +49,15 @@ video {
 @media screen and (max-width: 768px) {
   .hero-container {
     background: url("/public/images/1.jfif") center center/cover no-repeat fixed;
+    justify-content: space-around;
   }
   .hero-container > h1 {
     font-size: 40px;
-    margin-top: -150px;
+    margin-top: 2rem;
   }
   .hero-container > p {
     font-size: 25px;
     text-align: center;
-  }
-  .hero-btns {
-    padding-top: 300px;
   }
   .btn-mobile {
     display: block;
