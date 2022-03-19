@@ -12,7 +12,7 @@ export default function Services() {
           najlepszych ludzi. Nigdy tego nie wybaczymy" - przekazał Kijowski
           Uniwersytet Narodowy im. Tarasa Szewczenki.
         </p>
-        <p className="desc">
+        <p className="desc1">
           Rosjanie cały czas kontynuują bombardowanie na terenie Charkowa.
           Atakują m.in. bloki mieszkalne, szkoły, akademiki i centra medyczne.
         </p>

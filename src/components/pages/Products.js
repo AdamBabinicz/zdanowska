@@ -15,20 +15,20 @@ export default function Products() {
         <p>
           <em>Любовь Бакай</em>
         </p>
-        <p className="desc">
+        <p className="desc1">
           Julia była niezwykła. Cudowne dziecko. Ukończyła informatykę na
           najlepszym uniwersytecie na Ukrainie i mogła pracować dla każdego
           technologicznego giganta.
         </p>
-        <p className="desc">
+        <p className="desc2">
           Była zwycięzcą wielu międzynarodowych i ukraińskich konkursów
           studenckich z informatyki i potrafiła rozkochać każdego w matematyce.
         </p>
-        <p className="desc">
+        <p className="desc3">
           Co najważniejsze, Julia była fantastyczną nauczycielką dla swoich
           dzieci i członkiem rodziny dla wszystkich w Teach For Ukraine.
         </p>
-        <p>
+        <p className="desc4">
           <em>Навчай для України / Teach For Ukraine</em>
         </p>
       </article>

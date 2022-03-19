@@ -16,21 +16,21 @@ export default function SignUp() {
           się na akty okrucieństwa, które przybierają cechy zbrodni przeciwko
           ludzkości i zbrodni wojennych.
         </p>
-        <p className="desc">
+        <p className="desc1">
           Nasze biuro prokuratorskie ma jurysdykcję, żeby przeprowadzić
           postępowanie i śledztwo w sprawie tego, co dzieje się na Ukrainie. To,
           co zaczęło dziać się po 24 lutego, kiedy Rosja napadła na Ukrainę,
           wymaga bardzo pilnego podjęcia konkretnych kroków, aby udowodnić, że
           praworządność jest nie tylko czymś abstrakcyjnym.
         </p>
-        <p className="desc">
+        <p className="desc2">
           Jestem tu, by udowodnić, że sprawiedliwość i prawo nie są pustymi
           słowami ani abstrakcyjną ideą. Prawo międzynarodowe nie jest tworzone
           dla profesorów uniwersytetu i sędziów, lecz musi działać, chronić
           ofiary konfliktu, które cierpią z powodu działań wojennych."
-          <p className="desc">
-            <em>Karim Khan</em>
-          </p>
+        </p>
+        <p className="desc3">
+          <em>Karim Khan</em>
         </p>
       </article>
     </div>

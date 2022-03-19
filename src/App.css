@@ -77,10 +77,15 @@ font-family: 'Zilla Slab Highlight', cursive; */
   article {
     width: 90%;
     padding: 1rem;
-    display: -webkit-box;
+    /* display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+    overflow: hidden; */
+  }
+  article .desc2,
+  .desc3,
+  .desc4 {
+    display: none;
   }
   .services h3,
   .products h3,
