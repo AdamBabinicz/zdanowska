@@ -60,8 +60,7 @@ video {
     text-align: center;
   }
   .hero-btns {
-    margin-top: 250px;
-    background: green;
+    padding-top: 300px;
   }
   .btn-mobile {
     display: block;
