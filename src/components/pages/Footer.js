@@ -9,11 +9,12 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Ukraina walczy i zwycięży!
+          Ukraina walczy i&nbsp;zwycięży!
         </p>
         <p className="footer-subscription-text">
-          wojsko agresora jest odpowiedzialne za zbrodnie wojenne, a także
-          "świadome wywołanie katastrofy humanitarnej" w ukraińskich miastach
+          wojsko agresora jest odpowiedzialne za zbrodnie wojenne, a&nbsp;także
+          "świadome wywołanie katastrofy humanitarnej" w&nbsp;ukraińskich
+          miastach
         </p>
       </section>
       <div className="footer-links">
