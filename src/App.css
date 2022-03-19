@@ -78,7 +78,7 @@ font-family: 'Zilla Slab Highlight', cursive; */
     width: 90%;
     padding: 1rem;
     display: -webkit-box;
-    -webkit-line-clamp: 11;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
