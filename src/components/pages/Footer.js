@@ -158,7 +158,7 @@ function Footer() {
         </div>
       </div>
       <section class="social-media">
-        <div class="social-media-wrap">
+        <div className="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               <HiAcademicCap /> Julia
@@ -169,7 +169,7 @@ function Footer() {
           </small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
+              className="social-icon-link facebook"
               to="//www.facebook.com/profile.php?id=100007502733594"
               target="_blank"
               aria-label="Facebook"
@@ -178,7 +178,7 @@ function Footer() {
               <BsFacebook />
             </Link>
             <Link
-              class="social-icon-link instagram"
+              className="social-icon-link instagram"
               to="//www.instagram.com/istories.media"
               target="_blank"
               aria-label="Instagram"
@@ -187,7 +187,7 @@ function Footer() {
               <BsInstagram />
             </Link>
             <Link
-              class="social-icon-link youtube"
+              className="social-icon-link youtube"
               to="//www.youtube.com/watch?v=fNx8QE6jQ9M"
               target="_blank"
               aria-label="Youtube"
@@ -196,7 +196,7 @@ function Footer() {
               <BsYoutube />
             </Link>
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link twitter"
               to="//twitter.com/istories_media"
               target="_blank"
               aria-label="Twitter"

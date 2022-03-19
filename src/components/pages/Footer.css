@@ -116,7 +116,12 @@ p.footer-subscription-text {
   align-items: center;
   width: 240px;
 }
-
+.social-icon-link {
+  transition: all 0.4s ease-in-out;
+}
+.social-icon-link:hover {
+  opacity: 0.6;
+}
 .social-logo {
   color: #fff;
   /* margin-left: 20px; */
