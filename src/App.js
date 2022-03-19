@@ -6,6 +6,7 @@ import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 import ScrollToTop from "./components/ScrollToTop";
+import Scroll from "./components/Scroll";
 import CookieConsent from "react-cookie-consent";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Router>
         <ScrollToTop />
+        <Scroll />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
