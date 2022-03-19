@@ -5,7 +5,7 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h2>Niezwykle uzdolniona matematyczka z Ukrainy</h2>
+      <h2>Niezwykle uzdolniona matematyczka z&nbsp;Ukrainy</h2>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

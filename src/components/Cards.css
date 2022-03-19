@@ -5,6 +5,7 @@
 
 h2 {
   text-align: center;
+  padding-top: 2rem;
 }
 
 .cards__container {
@@ -127,7 +128,8 @@ h2 {
 
   .cards__item__text {
     color: #252e48;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
+    color: red;
   }
 }
