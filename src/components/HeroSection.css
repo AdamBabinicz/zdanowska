@@ -59,6 +59,10 @@ video {
     font-size: 25px;
     text-align: center;
   }
+  .hero-btns {
+    margin-top: 150px;
+    background: green;
+  }
   .btn-mobile {
     display: block;
     text-decoration: none;
