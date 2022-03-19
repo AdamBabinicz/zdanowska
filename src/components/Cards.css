@@ -121,4 +121,13 @@ h2 {
   .cards {
     padding: 0;
   }
+  .cards__item__info {
+    padding: 15px 20px 20px;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
