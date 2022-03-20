@@ -130,10 +130,6 @@ p.footer-subscription-text {
 }
 
 @media screen and (max-width: 820px) {
-  .footer-links {
-    /* padding-top: 2rem; */
-  }
-
   .footer-input {
     width: 100%;
   }
@@ -152,6 +148,9 @@ p.footer-subscription-text {
 }
 
 @media screen and (max-width: 768px) {
+  .footer-links {
+    margin-top: -3rem;
+  }
   .footer-link-items h2 {
     font-size: 1.3rem;
   }
